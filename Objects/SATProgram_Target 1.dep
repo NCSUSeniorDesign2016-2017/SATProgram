@@ -1,51 +1,84 @@
 Dependencies for Project 'SATProgram', Target 'Target 1': (DO NOT MODIFY !)
-F (.\clocks.c)(0x5837F6B6)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I"C:\Users\Caleb\Documents\ECE484 F16\SATProgram\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -D__MSP432P401R__-o .\objects\clocks.o --omf_browse .\objects\clocks.crf --depend .\objects\clocks.d)
+F (.\clocks.c)(0x583C2F8E)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\driverlib\MSP432P4xx\keil -I .\driverlib\MSP432P4xx-I"C:\Users\Brandon\Documents\NCSU\Senior Design\SATProgram-master(1)\SATProgram-master\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -D__MSP432P401R__-o .\objects\clocks.o --omf_browse .\objects\clocks.crf --depend .\objects\clocks.d)
 I (C:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include\msp432p401r.h)(0x57B7106E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EE6E6)
 I (C:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include\msp_compatibility.h)(0x5798D984)
 I (C:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include\msp432p401r_classic.h)(0x57B7106E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm4.h)(0x57363E5E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cminstr.h)(0x5735D766)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\cmsis_armcc.h)(0x5735D766)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmfunc.h)(0x5735D766)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmsimd.h)(0x5735D766)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
 I (C:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include\system_msp432p401r.h)(0x57A0FA18)
-I (clocks.h)(0x5837EE4A)
-F (.\main.c)(0x5839C209)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I"C:\Users\Caleb\Documents\ECE484 F16\SATProgram\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -D__MSP432P401R__-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (clocks.h)(0x583C2F8E)
+F (.\main.c)(0x583C4CF3)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\driverlib\MSP432P4xx\keil -I .\driverlib\MSP432P4xx-I"C:\Users\Brandon\Documents\NCSU\Senior Design\SATProgram-master(1)\SATProgram-master\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -D__MSP432P401R__-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (C:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include\msp432p401r.h)(0x57B7106E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EE6E6)
 I (C:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include\msp_compatibility.h)(0x5798D984)
 I (C:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include\msp432p401r_classic.h)(0x57B7106E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm4.h)(0x57363E5E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cminstr.h)(0x5735D766)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\cmsis_armcc.h)(0x5735D766)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmfunc.h)(0x5735D766)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmsimd.h)(0x5735D766)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
 I (C:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include\system_msp432p401r.h)(0x57A0FA18)
-I (clocks.h)(0x5837EE4A)
-I (uart.h)(0x583938C4)
-F (.\uart.c)(0x5839C6A7)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I"C:\Users\Caleb\Documents\ECE484 F16\SATProgram\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -D__MSP432P401R__-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (clocks.h)(0x583C2F8E)
+I (uart.h)(0x583C2F8E)
+I (.\driverlib\MSP432P4xx\driverlib.h)(0x582BFA25)
+I (.\driverlib\MSP432P4xx\adc14.h)(0x582BFA25)
+I (C:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include\msp.h)(0x57A0FA16)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EE6E6)
+I (.\driverlib\MSP432P4xx\aes256.h)(0x582BFA25)
+I (.\driverlib\MSP432P4xx\comp_e.h)(0x582BFA25)
+I (.\driverlib\MSP432P4xx\cpu.h)(0x582BFA25)
+I (.\driverlib\MSP432P4xx\crc32.h)(0x582BFA25)
+I (.\driverlib\MSP432P4xx\cs.h)(0x582BFA25)
+I (.\driverlib\MSP432P4xx\dma.h)(0x582BFA25)
+I (.\driverlib\MSP432P4xx\eusci.h)(0x582BFA25)
+I (.\driverlib\MSP432P4xx\flash.h)(0x582BFA25)
+I (.\driverlib\MSP432P4xx\fpu.h)(0x582BFA25)
+I (.\driverlib\MSP432P4xx\gpio.h)(0x582BFA25)
+I (.\driverlib\MSP432P4xx\i2c.h)(0x583C41AE)
+I (.\driverlib\MSP432P4xx\interrupt.h)(0x582BFA25)
+I (.\driverlib\MSP432P4xx\mpu.h)(0x582BFA25)
+I (.\driverlib\MSP432P4xx\pcm.h)(0x582BFA25)
+I (.\driverlib\MSP432P4xx\pmap.h)(0x582BFA25)
+I (.\driverlib\MSP432P4xx\pss.h)(0x582BFA25)
+I (.\driverlib\MSP432P4xx\ref_a.h)(0x582BFA25)
+I (.\driverlib\MSP432P4xx\reset.h)(0x582BFA25)
+I (.\driverlib\MSP432P4xx\rom.h)(0x582BFA25)
+I (.\driverlib\MSP432P4xx\rom_map.h)(0x582BFA25)
+I (.\driverlib\MSP432P4xx\rtc_c.h)(0x582BFA26)
+I (.\driverlib\MSP432P4xx\spi.h)(0x582BFA26)
+I (.\driverlib\MSP432P4xx\sysctl.h)(0x582BFA26)
+I (.\driverlib\MSP432P4xx\systick.h)(0x582BFA26)
+I (.\driverlib\MSP432P4xx\timer32.h)(0x582BFA26)
+I (.\driverlib\MSP432P4xx\timer_a.h)(0x582BFA26)
+I (.\driverlib\MSP432P4xx\uart.h)(0x582BFA26)
+I (.\driverlib\MSP432P4xx\wdt_a.h)(0x582BFA27)
+F (.\uart.c)(0x583C2F8E)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\driverlib\MSP432P4xx\keil -I .\driverlib\MSP432P4xx-I"C:\Users\Brandon\Documents\NCSU\Senior Design\SATProgram-master(1)\SATProgram-master\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -D__MSP432P401R__-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
 I (C:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include\msp432p401r.h)(0x57B7106E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EE6E6)
 I (C:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include\msp_compatibility.h)(0x5798D984)
 I (C:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include\msp432p401r_classic.h)(0x57B7106E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm4.h)(0x57363E5E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cminstr.h)(0x5735D766)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\cmsis_armcc.h)(0x5735D766)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmfunc.h)(0x5735D766)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmsimd.h)(0x5735D766)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
 I (C:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include\system_msp432p401r.h)(0x57A0FA18)
-I (uart.h)(0x583938C4)
-F (RTE\Device\MSP432P401R\startup_msp432p401r_uvision.s)(0x5798D984)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I"C:\Users\Caleb\Documents\ECE484 F16\SATProgram\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include--pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1" --pd "__MSP432P401R__ SETA 1"--list .\listings\startup_msp432p401r_uvision.lst --xref -o .\objects\startup_msp432p401r_uvision.o --depend .\objects\startup_msp432p401r_uvision.d)
-F (RTE\Device\MSP432P401R\system_msp432p401r.c)(0x57B7106E)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I"C:\Users\Caleb\Documents\ECE484 F16\SATProgram\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -D__MSP432P401R__-o .\objects\system_msp432p401r.o --omf_browse .\objects\system_msp432p401r.crf --depend .\objects\system_msp432p401r.d)
+I (uart.h)(0x583C2F8E)
+F (C:\Users\Brandon\Documents\NCSU\Senior Design\SATProgram-master(1)\SATProgram-master\driverlib\MSP432P4xx\keil\msp432p4xx_driverlib.lib)(0x582BFA28)()
+F (RTE\Device\MSP432P401R\startup_msp432p401r_uvision.s)(0x583C2F8E)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I"C:\Users\Brandon\Documents\NCSU\Senior Design\SATProgram-master(1)\SATProgram-master\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include--pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1" --pd "__MSP432P401R__ SETA 1"--list .\listings\startup_msp432p401r_uvision.lst --xref -o .\objects\startup_msp432p401r_uvision.o --depend .\objects\startup_msp432p401r_uvision.d)
+F (RTE\Device\MSP432P401R\system_msp432p401r.c)(0x583C2F8E)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I"C:\Users\Brandon\Documents\NCSU\Senior Design\SATProgram-master(1)\SATProgram-master\RTE"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -D__MSP432P401R__-o .\objects\system_msp432p401r.o --omf_browse .\objects\system_msp432p401r.crf --depend .\objects\system_msp432p401r.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EE6E6)
 I (C:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include\msp.h)(0x57A0FA16)
 I (C:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include\msp432p401r.h)(0x57B7106E)
 I (C:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include\msp_compatibility.h)(0x5798D984)
 I (C:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include\msp432p401r_classic.h)(0x57B7106E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm4.h)(0x57363E5E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cminstr.h)(0x5735D766)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\cmsis_armcc.h)(0x5735D766)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmfunc.h)(0x5735D766)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmsimd.h)(0x5735D766)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
 I (C:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include\system_msp432p401r.h)(0x57A0FA18)

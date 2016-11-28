@@ -234,6 +234,18 @@
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
+    <File>
+      <GroupNumber>1</GroupNumber>
+      <FileNumber>4</FileNumber>
+      <FileType>4</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>C:\Users\Brandon\Documents\NCSU\Senior Design\SATProgram-master(1)\SATProgram-master\driverlib\MSP432P4xx\keil\msp432p4xx_driverlib.lib</PathWithFileName>
+      <FilenameWithoutPath>msp432p4xx_driverlib.lib</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
   </Group>
 
   <Group>

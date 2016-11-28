@@ -5,7 +5,7 @@
 <h2>Tool Versions:</h2>
 IDE-Version: µVision V5.21.1.0
 Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: Caleb Ray, ncsu, LIC=----
+License Information: Brandon Wiseman, NC State University (Student), LIC=----
  
 Tool Versions:
 Toolchain:       MDK-Lite  Version: 5.21a
@@ -21,24 +21,28 @@ Target DLL:      TI_XDS\XDS2CM3.dll V1.0.2.0
 Dialog DLL:      TCM.DLL V1.14.14.0
  
 <h2>Project:</h2>
-C:\Users\Caleb\Documents\ECE484 F16\SATProgram\SATProgram.uvprojx
-Project File Date:  11/26/2016
+C:\Users\Brandon\Documents\NCSU\Senior Design\SATProgram-master(1)\SATProgram-master\SATProgram.uvprojx
+Project File Date:  11/28/2016
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
-Build target 'Target 1'
+Rebuild target 'Target 1'
+assembling startup_msp432p401r_uvision.s...
+compiling clocks.c...
 compiling uart.c...
+compiling system_msp432p401r.c...
+compiling main.c...
 linking...
-Program Size: Code=752 RO-data=340 RW-data=0 ZI-data=608  
+Program Size: Code=1044 RO-data=520 RW-data=48 ZI-data=608  
 ".\Objects\SATProgram.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
 
 Package Vendor: ARM
-                http://www.keil.com/pack/ARM.CMSIS.5.0.0-Beta4.pack
-                ARM::CMSIS:CORE:5.0.0
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
                 CMSIS (Cortex Microcontroller Software Interface Standard)
-   * Component: CORE Version: 5.0.0
+   * Component: CORE Version: 4.3.0
 
 Package Vendor: TexasInstruments
                 http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/mspkeil/latest/exports/TexasInstruments.MSP432P4xx_DFP.2.2.1.pack
@@ -47,19 +51,19 @@ Package Vendor: TexasInstruments
    * Component: Startup Version: 2.2.1
 
 <h2>Collection of Component include folders:</h2>
-  C:\Users\Caleb\Documents\ECE484 F16\SATProgram\RTE
-  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include
+  C:\Users\Brandon\Documents\NCSU\Senior Design\SATProgram-master(1)\SATProgram-master\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
   C:\Keil_v5\ARM\PACK\TexasInstruments\MSP432P4xx_DFP\2.2.1\Device\Include
 
 <h2>Collection of Component Files used:</h2>
 
-   * Component: ARM::CMSIS:CORE:5.0.0
+   * Component: ARM::CMSIS:CORE:4.3.0
 
    * Component: TexasInstruments::Device:Startup:2.2.1
-      Source file:   Examples\EmptyMain\main.c
-      Source file:   Device\Source\system_msp432p401r.c
       Include file:  Device\Include\msp_compatibility.h
       Source file:   Device\Source\startup_msp432p401r_uvision.s
+      Source file:   Device\Source\system_msp432p401r.c
+      Source file:   Examples\EmptyMain\main.c
       Source file:   Examples\BlinkLED\blinkLED.c
 Build Time Elapsed:  00:00:01
 </pre>
